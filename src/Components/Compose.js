@@ -21,7 +21,7 @@ function Compose(props) {
   const handleSubmit=()=>{
     axios
     .post(
-      "https://gmailclon.herokuapp.com/gmail_data",
+      "https://gmail-clone-t228.onrender.com/gmail_data",
       JSON.stringify(data),
       {
         headers: {

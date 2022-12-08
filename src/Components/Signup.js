@@ -22,7 +22,7 @@ function Signup() {
   const handleSubmit = () => {
     axios
       .post(
-        "https://gmailclon.herokuapp.com/users/signup",
+        "https://gmail-clone-t228.onrender.com/users/signup",
         JSON.stringify(signup),
         {
           headers: {

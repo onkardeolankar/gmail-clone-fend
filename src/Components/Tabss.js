@@ -28,13 +28,13 @@ export default function Tabss({setSelectedmail}) {
     setValue(newValue);
   };
   const getData = () => {
-    fetch("https://gmailclon.herokuapp.com/gmail_data")
+    fetch("https://gmail-clone-t228.onrender.com/gmail_data")
       .then((response) => response.json())
       .then((data) => setMails(data));
   };
   const handleDelete = (name) => {
     axios
-      .delete("https://gmailclon.herokuapp.com/gmail_data/" + name)
+      .delete("https://gmail-clone-t228.onrender.com/gmail_data/" + name)
       .then((data) => getData());
   };
   useEffect(() => {
