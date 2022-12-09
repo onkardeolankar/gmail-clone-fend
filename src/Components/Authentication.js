@@ -18,7 +18,7 @@ function Authentication() {
   });
 
   const login = async (userDetails) => {
-  const data=await fetch("https://gmailclon.herokuapp.com/users/login",{
+  const data=await fetch("https://gmail-clone-t228.onrender.com/users/login",{
       method:'POST',
       headers: {
         "Content-type": "application/json",
